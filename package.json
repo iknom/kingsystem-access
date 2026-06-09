@@ -1,0 +1,24 @@
+{
+  "name": "kingsystem-access",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "pnpm build"
+  },
+  "keywords": [
+    "kingsystem",
+    "access"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "typescript": "^5.5.3"
+  },
+  "author": "TroveTeam",
+  "license": "MIT"
+}
