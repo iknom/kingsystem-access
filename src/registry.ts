@@ -122,6 +122,8 @@ export const permissionsRegistry = [
     {key: "personal.profile", groupKey: "global.personal", nameUk: "Перегляд картки співробітника", access: "view"},
     {key: "personal.invite", groupKey: "global.personal", nameUk: "Запрошення співробітника", access: "view_edit"},
     {key: "personal.edit", groupKey: "global.personal", nameUk: "Редагування даних співробітника", access: "view_edit"},
+    {key: "personal.dismiss", groupKey: "global.personal", nameUk: "Звільнення співробітника", access: "view_edit"},
+    {key: "personal.restore", groupKey: "global.personal", nameUk: "Повернення співробітника в штат", access: "view_edit"},
 
     {key: "archive.list", groupKey: "global.archive", nameUk: "Перегляд архівних заявок і об'єктів", access: "view"},
     {key: "archive.filter", groupKey: "global.archive", nameUk: "Фільтрація архіву", access: "view"},
@@ -162,6 +164,7 @@ export const permissionsRegistry = [
     {key: "distribution.applications.create", groupKey: "distribution.applications", nameUk: "Створення заявки", access: "view_edit"},
     {key: "distribution.applications.edit", groupKey: "distribution.applications", nameUk: "Редагування заявки", access: "view_edit"},
     {key: "distribution.applications.manager.assign", groupKey: "distribution.applications", nameUk: "Призначення менеджера заявки", access: "view_edit"},
+    {key: "distribution.applications.manager.me", groupKey: "distribution.applications", nameUk: "Стати менеджером заявки", access: "view_edit"},
     {key: "distribution.applications.client.find", groupKey: "distribution.applications", nameUk: "Пошук і прив'язка клієнта", access: "view_edit"},
     {key: "distribution.applications.client.update", groupKey: "distribution.applications", nameUk: "Оновлення клієнта в заявці", access: "view_edit"},
     {key: "distribution.applications.address.update", groupKey: "distribution.applications", nameUk: "Оновлення адреси заявки", access: "view_edit"},
