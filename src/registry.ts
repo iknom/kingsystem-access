@@ -98,6 +98,7 @@ export const permissionsRegistry = [
     {key: "tasks.create", groupKey: "global.tasks", nameUk: "Створення задачі", access: "view_edit"},
     {key: "tasks.edit", groupKey: "global.tasks", nameUk: "Редагування задачі", access: "view_edit"},
     {key: "tasks.status.change", groupKey: "global.tasks", nameUk: "Зміна статусу задачі", access: "view_edit"},
+    {key: "tasks.status.change.all", groupKey: "global.tasks", nameUk: "Повне керування статусами задач", access: "view_edit"},
     {key: "tasks.proof.manage", groupKey: "global.tasks", nameUk: "Підтвердження задачі текстом, вибором або файлом", access: "view_edit"},
 
     {key: "clients.list", groupKey: "global.clients", nameUk: "Перегляд списку клієнтів", access: "view"},
