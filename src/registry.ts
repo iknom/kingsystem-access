@@ -37,6 +37,7 @@ export interface AccessPermissionGroup {
 }
 
 export const permissionGroups = [
+    {key: "global.platformTesting", nameUk: "Тестування платформи", access: "view"},
     {key: "global.search", nameUk: "Глобальний пошук", access: "view"},
     {key: "global.tasks", nameUk: "Завдання компанії", access: "view_edit"},
     {key: "global.clients", nameUk: "Клієнти", access: "view_edit"},
@@ -115,6 +116,7 @@ export const permissionGroups = [
 export type PermissionGroupKey = typeof permissionGroups[number]["key"];
 
 export const permissionsRegistry = [
+    {key: "platform.testing", groupKey: "global.platformTesting", nameUk: "Тестування платформи", access: "view"},
     {key: "global.search.use", groupKey: "global.search", nameUk: "Використання глобального пошуку", access: "view"},
 
     {key: "tasks.list", groupKey: "global.tasks", nameUk: "Перегляд задач компанії", access: "view"},
